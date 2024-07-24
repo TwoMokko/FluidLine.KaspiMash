@@ -265,14 +265,138 @@
           'editor_type' => 0,
           'category' => 0,
           'cache_type' => 0,
-          'snippet' => '<div>main page</div>',
+          'snippet' => '<div class="main">
+    <div class="main-banner">
+        <div class="main-banner-img">
+            <div class="banner">
+                <div class="main-banner-info">
+                    <h1>Проекты под ключ</h1>
+                    <div class="main-banner-info-text">
+                        Занимаемся проектными, производственными делами ля ля л ял ял ял ял ял ял ял я л яля яляляляляляляля
+                    </div>
+                </div>
+                <div>
+                    <a class="btn btn-accent">Заказать услугу</a>
+                </div>
+            </div>
+            <img alt="banner" src="/assets/resources/img/mainPage/main-banner.png">
+        </div>
+    </div>
+    <div class="main-cards container">
+        <div class="main-cards-item">
+            <h2>Проектирование</h2>
+            <div>Проектирование систем медицинского газоснабжения, лечебных учреждений и “чистых помещений”</div>
+            <a href="/engineering" class="btn btn-accent">Подробнее</a>
+        </div>
+        <div class="main-cards-item">
+            <h2>Поставка и монтаж</h2>
+            <div>Монтаж систем подачи медицинского кислорода от источника до пациента</div>
+            <a href="/installation" class="btn btn-accent">Подробнее</a>
+        </div>
+        <div class="main-cards-item">
+            <h2>Производство</h2>
+            <div>Производство медицинских консолей, увлажнителей кислорода и прочего оборудования, использующегося для подачи медицинских газов</div>
+            <a href="/production" class="btn btn-accent">Подробнее</a>
+        </div>
+    </div>
+    <div class="main-banner">
+        <div class="main-banner-img">
+            <div class="info">
+                <div class="main-banner-info">
+                    <div class="logo">
+                        <img src="/assets/resources/img/logo.svg">
+                    </div>
+                    <div class="main-banner-info-text">
+                        Мы предлагаем комплексные услуги по созданию и обслуживанию систем медицинского газоснабжения, включая проведение технического аудита, разработку проекта, установку оборудования и сдачу объекта в эксплуатацию.
+                    </div>
+                </div>
+                <div class="main-banner-info">
+                    <div class="main-banner-info-head">Собственное производство</div>
+                    <div class="main-banner-info-text">Ваши пожелания и предложения по комплектации медицинского оборудования будут реализованы в кратчайшие сроки.</div>
+                </div>
+            </div>
+            <img alt="banner" src="/assets/resources/img/mainPage/main-info.png">
+        </div>
+    </div>
+    <div class="main-certificate container">
+        <h2>Сертификаты и лицензии</h2>
+        <div class="main-certificate-images">
+            <img src="/assets/resources/img/certificate/certificate.png">
+            <img src="/assets/resources/img/certificate/certificate.png">
+            <img src="/assets/resources/img/certificate/certificate.png">
+            <img src="/assets/resources/img/certificate/certificate.png">
+        </div>
+    </div>
+</div>',
           'locked' => false,
           'properties' => 
           array (
           ),
           'static' => true,
           'static_file' => 'assets/base/chunks/pages/main.html',
-          'content' => '<div>main page</div>',
+          'content' => '<div class="main">
+    <div class="main-banner">
+        <div class="main-banner-img">
+            <div class="banner">
+                <div class="main-banner-info">
+                    <h1>Проекты под ключ</h1>
+                    <div class="main-banner-info-text">
+                        Занимаемся проектными, производственными делами ля ля л ял ял ял ял ял ял ял я л яля яляляляляляляля
+                    </div>
+                </div>
+                <div>
+                    <a class="btn btn-accent">Заказать услугу</a>
+                </div>
+            </div>
+            <img alt="banner" src="/assets/resources/img/mainPage/main-banner.png">
+        </div>
+    </div>
+    <div class="main-cards container">
+        <div class="main-cards-item">
+            <h2>Проектирование</h2>
+            <div>Проектирование систем медицинского газоснабжения, лечебных учреждений и “чистых помещений”</div>
+            <a href="/engineering" class="btn btn-accent">Подробнее</a>
+        </div>
+        <div class="main-cards-item">
+            <h2>Поставка и монтаж</h2>
+            <div>Монтаж систем подачи медицинского кислорода от источника до пациента</div>
+            <a href="/installation" class="btn btn-accent">Подробнее</a>
+        </div>
+        <div class="main-cards-item">
+            <h2>Производство</h2>
+            <div>Производство медицинских консолей, увлажнителей кислорода и прочего оборудования, использующегося для подачи медицинских газов</div>
+            <a href="/production" class="btn btn-accent">Подробнее</a>
+        </div>
+    </div>
+    <div class="main-banner">
+        <div class="main-banner-img">
+            <div class="info">
+                <div class="main-banner-info">
+                    <div class="logo">
+                        <img src="/assets/resources/img/logo.svg">
+                    </div>
+                    <div class="main-banner-info-text">
+                        Мы предлагаем комплексные услуги по созданию и обслуживанию систем медицинского газоснабжения, включая проведение технического аудита, разработку проекта, установку оборудования и сдачу объекта в эксплуатацию.
+                    </div>
+                </div>
+                <div class="main-banner-info">
+                    <div class="main-banner-info-head">Собственное производство</div>
+                    <div class="main-banner-info-text">Ваши пожелания и предложения по комплектации медицинского оборудования будут реализованы в кратчайшие сроки.</div>
+                </div>
+            </div>
+            <img alt="banner" src="/assets/resources/img/mainPage/main-info.png">
+        </div>
+    </div>
+    <div class="main-certificate container">
+        <h2>Сертификаты и лицензии</h2>
+        <div class="main-certificate-images">
+            <img src="/assets/resources/img/certificate/certificate.png">
+            <img src="/assets/resources/img/certificate/certificate.png">
+            <img src="/assets/resources/img/certificate/certificate.png">
+            <img src="/assets/resources/img/certificate/certificate.png">
+        </div>
+    </div>
+</div>',
         ),
         'policies' => 
         array (

@@ -164,6 +164,7 @@ footer .footer-social > img {
 }
 footer .footer-contacts-offer .contacts {
   margin-bottom: 40px;
+  align-items: end;
 }
 footer .footer-contacts-offer .contacts > a:hover {
   color: #FFF;
@@ -305,11 +306,20 @@ footer .footer-contacts-offer .contacts > a:hover {
   gap: 60px;
   margin-bottom: 100px;
 }
+.cards-item > div:nth-child(1) {
+  flex: 50%;
+}
 .cards-item > div:nth-child(1) .btn-wrap {
   margin-top: 24px;
 }
+.cards-item > div:nth-child(2) {
+  flex: 50%;
+}
 .cards-item > div:nth-child(2) > img {
   border-radius: 20px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 .cards-item-text {
   display: flex;

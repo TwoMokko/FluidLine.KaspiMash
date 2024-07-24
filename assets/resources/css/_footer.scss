@@ -24,6 +24,7 @@ footer {
         &-contacts-offer {
             .contacts {
                 margin-bottom: 40px;
+                align-items: end;
                  > a {
                      &:hover {
                          color: $colorTextLight;
