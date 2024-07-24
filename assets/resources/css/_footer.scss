@@ -1,0 +1,35 @@
+@use "function" as *;
+@use "variable" as *;
+
+footer {
+    background-color: $colorBackgroundAccent;
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 0 30px;
+        &-address {
+            font-size: 16px;
+            line-height: 20px;
+            margin: 18px 0 8px;
+        }
+        &-social {
+            display: flex;
+            gap: 16px;
+            > img {
+                height: 36px;
+                width: auto;
+            }
+        }
+        &-contacts-offer {
+            .contacts {
+                margin-bottom: 40px;
+                 > a {
+                     &:hover {
+                         color: $colorTextLight;
+                     }
+                 }
+             }
+        }
+    }
+}

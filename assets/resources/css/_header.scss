@@ -1,0 +1,37 @@
+@use "function" as *;
+@use "variable" as *;
+
+header {
+    background-color: $colorBackgroundLight;
+    margin-bottom: 20px;
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 0;
+        &-links {
+            display: flex;
+            > a {
+                padding: 8px;
+                font-size: 20px;
+                line-height: 24px;
+                color: $colorTextDark;
+                &:hover {
+                    color: $colorTextAccent;
+                }
+            }
+        }
+        &-contacts-offer {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .contacts {
+                > a {
+                    &:hover {
+                        color: $colorTextAccent;
+                    }
+                }
+            }
+        }
+    }
+}

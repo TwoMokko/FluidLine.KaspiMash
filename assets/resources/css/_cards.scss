@@ -1,0 +1,29 @@
+@use "sass:map";
+@use "function" as *;
+@use "variable" as *;
+
+.cards {
+    > div:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    &-item {
+        display: flex;
+        gap: 60px;
+        margin-bottom: 100px;
+        > div:nth-child(1) {
+            .btn-wrap {
+                margin-top: 24px;
+            }
+        }
+        > div:nth-child(2) {
+            > img {
+                border-radius: 20px;
+            }
+        }
+        &-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+}
